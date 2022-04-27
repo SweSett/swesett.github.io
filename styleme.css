@@ -3,6 +3,7 @@ h1,h2{
     font-style: italic;
     font-weight: 100;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: cornsilk;
    
     }
 p{
@@ -25,3 +26,15 @@ ol{
     display: flex;
     flex-direction: column-reverse;
 }
+
+p::first-letter{
+  font-size: 1.5em;  
+}
+ strong{
+     color: blue;
+     font-style: italic;
+     font-weight: bold;
+     font-size: larger;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+
