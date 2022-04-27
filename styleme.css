@@ -37,4 +37,13 @@ p::first-letter{
      font-size: larger;
      font-family: Georgia, 'Times New Roman', Times, serif;
  }
+a{
+    text-decoration:  none;
+    color: #060f7c;
+}
+a:hover{
+    color: rgb(202, 122, 3);
+    text-decoration: underline;
+}
+
 
