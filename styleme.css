@@ -1,0 +1,27 @@
+h1,h2{
+    color: coral;
+    font-style: italic;
+    font-weight: 100;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+    }
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+
+div{
+    bottom: 0%;
+}
+
+ul{
+    font-family: Tahoma, "Courier New", "Times New Roman";
+    font-size: 12pt;
+    font-weight:lighter;
+    font-style: oblique;
+}
+
+ol{
+    display: flex;
+    flex-direction: column-reverse;
+}
