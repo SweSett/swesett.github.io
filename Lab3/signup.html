@@ -12,28 +12,28 @@
     <form action="http://mumstudents.org/params.php" method="get">
         <fieldset>
             <legend>New User Signup</legend>
-            <label>Name:</label>
+            <label class="userLabel">Name:</label>
             <input type="text" name="name" maxlength="16">
             <br/> 
-            <label>Gender:</label>
+            <label class="userLabel">Gender:</label>
             <input type="radio" name="gender" value="Male" />Male
             <input type="radio" name="gender" value="Female"  checked/>Female
             <br/>
-            <label>Age:</label>
+            <label class="userLabel">Age:</label>
             <input type="text" size="6" maxlength="2"></input>
             <br/>
-            <label>Personality Type:</label>
+            <label class="userLabel">Personality Type:</label>
             <input type="text" size="6" maxlength="4"></input>
             <a href="http://www.humanmetrics.com/personality">(<span class="redirect">Don't know your type?</span>)</a>
             <br>
-            <label>Favourite OS:</label>
+            <label class="userLabel">Favourite OS:</label>
             <select name="os">
                 <option value="Windows" selected>Windows</option>
                 <option value="Mac OS X">Mac OS X</option>
                 <option value="Linux">Linux</option>
             </select>
             <br>
-            <label>Seeking Age:</label>
+            <label class="userLabel">Seeking Age:</label>
             <input type="text" name="minAge" size="6" maxlength="2" placeholder="min">
             <span>to</span>
             <input type="text" name="maxAge" size="6" maxlength="2" placeholder="max">
