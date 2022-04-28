@@ -2,11 +2,13 @@ form{
     background-color:lavender;
     margin-top: 20px;
     margin-right: 60%;
+    border-radius: 12px;
 }
 
 label{
-    width: 150px;
+    width: 120px;
     display: inline-block;
+    font-weight: bold;
 }
 
 label,
@@ -16,6 +18,18 @@ select {
 }
 
 div#main{
-    margin-top: 5%;
-    margin-left: 5%;
+    margin-left: 1%;   
    }
+
+   input[type="submit"] {
+    background-color: hotpink;
+    font-size: 1em;
+}
+fieldset{
+    border-radius: 12px;
+    border-top: 1px thin;
+    border-left: 1px thin;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+
+}
