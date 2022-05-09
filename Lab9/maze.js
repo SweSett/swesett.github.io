@@ -23,16 +23,26 @@ $(document).ready(function() {
 
     $("#end").click(function() {
         if (isStarted && !$(".boundary").hasClass('youlose')) {
+            //alert("You win! :]");
             $("#status").text("You win! :]");
             $("#status").css("color", "green");
         } else {
             if (isStarted) {
+                //alert("Sorry, you lost. :[");
                 $("#status").text("Sorry, you lost. :[");
                 $("#status").css("color", "red");
             }
         }
         isStarted = false;
     });
+
+    // $("#start").on("mouseleave", function(event) {
+    //     if (event.pageX < $(this).offset().left) {
+    //         $(".boundary").addClass("youlose");
+    //         $("#status").text("You lose!");
+    //         $("#status").css("color", "red");
+    //     }
+    // });
 
     $("#maze").on("mouseleave", function(event) {
         $(".boundary").addClass("youlose");
