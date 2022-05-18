@@ -18,7 +18,7 @@ app.post('/lookup', urlencodedParser, function(req, res, next) {
         if (err) {
             console.log("ERROR : ", err);
         } else {
-            console.log("Length of result from database is : ", data.length);
+            console.log("The length of result from database is : ", data.length);
             res.send(data);
         }
     });
